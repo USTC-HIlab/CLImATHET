@@ -1,0 +1,4 @@
+Version:	Date	Time	Sample	Tumor purity	Subclonal populations	Average copy number	Copy neutral RC
+CLImATHET1.0	Dec-10-2015	11:54:00	example	0.698571	0.698571	3.730301	184
+Version:	Date	Time	Sample	Tumor purity	Subclonal populations	Average copy number	Copy neutral RC
+CLImATHET1.0	Dec-10-2015	16:56:59	example	0.597574	0.597574	1.874477	310

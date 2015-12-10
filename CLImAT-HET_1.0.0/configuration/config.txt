@@ -1,0 +1,19 @@
+/*****parameters to filter data*****/
+
+#minimum read depth
+minDepth = 10
+
+#maximum read depth
+maxDepth = 300
+
+#minimum GC-content
+minGC = 0.1
+
+#maximum GC-content
+maxGC = 0.9
+
+#minimum mappability score
+minMapScore = 0
+
+#maximum mappability score
+maxMapScore = 0.98
