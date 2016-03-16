@@ -226,7 +226,7 @@ if sourceflag == 1 % reading a directory
                 else
                     sp = sp_indx;
                 end
-                if gender == 1 && (Chromosomes(Chr_i) == 23 || Chromosomes(Chr_i) == 24)
+                if gender == 1 && (Chromosomes(chr_indx) == 23 || Chromosomes(chr_indx) == 24)
                     CN = round((rc_median*2/lambda-(1-beta(sp)))/(beta(sp)+eps));
                 else
                     CN = round(2*(rc_median/lambda-(1-beta(sp)))/(beta(sp)+eps));
@@ -243,7 +243,7 @@ if sourceflag == 1 % reading a directory
                     end
                     sp_segs_all(i) = sp_indx;
                 else
-                    if gender == 1 && (Chromosomes(Chr_i) == 23 || Chromosomes(Chr_i) == 24)
+                    if gender == 1 && (Chromosomes(chr_indx) == 23 || Chromosomes(chr_indx) == 24)
                         cn_segs_all(i) = cn(state_indx);
                         mcn_segs_all(i) = cn(state_indx);
                         AI_segs_all(i) = -1;

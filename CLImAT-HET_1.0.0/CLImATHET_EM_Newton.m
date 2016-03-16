@@ -105,7 +105,7 @@ for ex = 1:numex
     condi_probs_sep{ex} = condi_probs;
     clear condi_probs;
     condi_probs_fluct_sep{ex} = condi_probs_fluct;
-    clear condi_probs_nofluct;
+    clear condi_probs_fluct;
 end
 
 %-----------------------M step-----------------------------
